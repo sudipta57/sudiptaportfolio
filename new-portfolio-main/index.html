@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sudipta Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/cc97c34af7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h2><span>S</span>u<span>D</span>i<span>P</span>t<span>A</span></h2>
+          <ul id="sidemenu">
+            <li><a href="#header">HOME</a></li>
+            <li><a href="#about">ABOUT ME</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#contact">CONTACT ME</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="colsemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" " onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>
+            Hi, i am <span>Sudipta</span> <br />
+            Gh from india
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- -------------------about-------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1"><img src="images/sud1.jpeg" alt="" /></div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+              dolore distinctio aliquid odio quis nisi repudiandae exer Lorem
+              ipsum dolor sit amet consectetur, adipisicing elit. Dolore,
+              repudiandae culpa. citationem, vitae dolor beatae nobis, pariatur
+              magni tempore enim minima error? Praesentium iure placeat saepe
+              fugit beatae.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI?UX</span><br />Designing Web/App interfaces</li>
+                <li><span>Web Development </span><br />Web app Development</li>
+                <li>
+                  <span>App Development</span><br />Building Android/ios apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>6-months</span><br />i have learned c from my school teacher</li>
+                <li><span>Then learned from youtube</span><br />Web app Development</li>
+                
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>Currently 11th</span><br />Currently i'm persuing 10+1.</li>
+                <li><span>I have completed 10th from wbbse </span><br />In future i want to be a good A.I. developer</li>
+                <li>
+                  <span>Preparing for JEE also</span><br /> And i am learning web Development well.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------------------------services------------------------ -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam
+              facilis, cupiditate fuga necessitatibus laborum nam assumenda
+              magnam excepturi exercitationem.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Development</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam
+              facilis, cupiditate fuga necessitatibus laborum nam assumenda
+              magnam excepturi exercitationem.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Web Designing</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam
+              facilis, cupiditate fuga necessitatibus laborum nam assumenda
+              magnam excepturi exercitationem.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------------------portfolio-------------------------------- -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/thumb2.jpg">
+            <div class="layer">
+              <h3>Weather App</h3>
+              <p>This is simple weather app , here you can find for weather
+              </p>
+              <a href="https://weather-app-mu-lake.vercel.app" target="_blank"><i class="fa-solid fa-link" ></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" alt="">
+            <div class="layer">
+              <h3>Netflex clone</h3>
+              <p>This is a normal Netflex clone made using next js
+              </p>
+              <a href="https://sudiptaflix-c6r2.vercel.app"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" alt="">
+            <div class="layer">
+              <h3>Online shoping App</h3>
+              <p>this is simple affiliate website 
+              </p>
+              <a href="https://shopsmartly.vercel.app/"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+
+
+    <!-- ---------------------------contact---------------------------- -->
+<div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-envelope"></i>ghoramisudipta32@gmail.com</p>
+          
+          <p><i class="fa-solid fa-phone"></i> 123457356</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100083116548901&mibextid=D4KYlr" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="example-2.txt" download><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://instagram.com/itz_sudipta_prince?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <a href="example.txt" download class="btn btn-2">Download Cv</a>
+        </div>
+        <div class="contact-right">
+          <form  name="submit-to-google-sheet">
+            <input type="text" name="name" placeholder="Your name " required>
+            <input type="email" name="email" placeholder="Your email" required>
+            <textarea name="message" rows="6" placeholder="YOur message"></textarea>
+            <button type="submit" class="btn btn-2">submit</button>
+          </form>
+          <span id="msg">
+           
+          </span>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>Copyright Sudipta. made with <i class="fa-solid fa-heart"></i> by me</p>
+      </div>
+    </div>
+  </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+
+    </script>
+
+
+<script>
+  var sidemenu = document.getElementById("sidemenu")
+
+  function openmenu(){
+    sidemenu.style.right = "0";
+  }
+  function colsemenu(){
+    sidemenu.style.right = "-200px";
+  }
+</script>
+
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxSv5AwGxMZ-IDWLkB5hw1343MLhEt7f9MYlX2zuuPXSRpl8Hv7oiPKB6vYRZ3krhyM/exec'
+  const form = document.forms['submit-to-google-sheet']
+  
+  const msg = document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent succsessfully"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+  </body>
+</html>
